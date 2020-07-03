@@ -1,0 +1,1 @@
+I manage to connect all the stepper motors, drivers and the servo motor to the raspberry pi and the external power suply. I can move them with python code

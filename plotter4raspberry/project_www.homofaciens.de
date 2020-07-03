@@ -1,0 +1,13 @@
+https://homofaciens.de/technics-machines-v-plotter_en.htm
+
+This project is well documented. code is in c. It prints "Scalable Vector Graphics (*.svg)"
+following the steps from the project, it is easy to compile.
+
+Problem: the wiring is from an older version of raspberry pi. it has 26 pins
+
+posible solutions:
+
+1- change the gpio numbers in the code   - no
+2- try to use the same pins as descrived in the project and hope that piece of code "wiring pi would make the magic" - no tested
+
+other steps would be to try to reduce the code, or find something writed in c with just the basic to move a stepper motor

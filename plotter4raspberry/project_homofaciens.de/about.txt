@@ -8,19 +8,16 @@ Problem: the wiring is from an older version of raspberry pi. it has 26 pins
 posible solutions:
 
 1- change the gpio numbers in the code   - no
-2- try to use the same pins as descrived in the project and hope that piece of code "wiring pi would make the magic" - no tested
-
-other steps would be to try to reduce the code, or find something writed in c with just the basic to move a stepper motor
+2- try to use the same pins as descrived in the project and hope that piece of code "wiring pi would make the magic" -  tested, didn't work
 
 solution:
-the problem was that wiring pi version did not reconigze the raspberry pi 4b. I found the solution here:
+the problem was that wiring pi version did not reconigze the raspberry pi 4b.
 
-http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/
-
-$ gpio -v
 $ gpio readall
 oops - unable to determine board type... model 14
 
+
+I found the solution here:    http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/
 
 cd /tmp
 wget https://project-downloads.drogon.net/wiringpi-latest.deb

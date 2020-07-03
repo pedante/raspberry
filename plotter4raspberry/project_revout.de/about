@@ -1,0 +1,12 @@
+https://www.revout.de/vplotter/
+
+Porject well documented with code in github: https://github.com/RevoutIT/pivplotter
+
+Problem: i had no idea what to do with the code. it's java. After sometime it become clearer it was a eclipse project. I got eclipse working in a windows machine and i could manage to compile the code. nome of it works in the raspberry pi. I could run the project from within eclipse.
+
+Eclipse its not working with my raspberry, and probrably with many. the architecture of the system seems to be the problem. to run eclipse in raspberry it needs java 1.8, witch it is arm. i couldn't manage to make it work yet.
+
+posible ways to solve the problems:
+-ask in forums(raspberry,eclipse,raspian...) about how to install eclipse in raspberry, Also i could ask the revout.de for some tips.
+
+-try to compile the code from another system for rasp.

@@ -1,1 +1,11 @@
+identify wires
+mena 17 has 4 cables therefore it's a bipolar stepper motor
+
+arlington array?
+i don't know yet if it's a must, but it is present in the diagram of the project. in some tutorials i found the uln2803 being use with a raspberry pi
+
+You must use the ULN2803A the A variant is the one for 3.3v inputs , other variants are for higher input voltages on the control pins.
+
+42,57,86 TB6600 Stepper Motor Drive Updated version of 4A 9~40V TTL 32 Micro-Step CNC 1 Axis NEW 2 or 4 Phase of Stepper Motor
+
 :_)
